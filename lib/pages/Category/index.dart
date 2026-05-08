@@ -11,7 +11,7 @@ class _CategoryViewState extends State<CategoryView> {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Text("分类组件"),
+      child: Text("分类"),
     );
   }
 }
