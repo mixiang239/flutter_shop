@@ -7,7 +7,7 @@ import 'package:hm_shop/components/Home/GGGSuggestion.dart';
 import 'package:hm_shop/viewmodels/home.dart';
 
 class HomeView extends StatefulWidget {
-  HomeView({Key? key}) : super(key: key);
+  const HomeView({super.key});
 
   @override
   _HomeViewState createState() => _HomeViewState();

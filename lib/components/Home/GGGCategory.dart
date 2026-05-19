@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class GGGCategory extends StatefulWidget {
-  GGGCategory({Key? key}) : super(key: key);
+  const GGGCategory({super.key});
 
   @override
   _GGGCategoryState createState() => _GGGCategoryState();
@@ -23,8 +23,8 @@ class _GGGCategoryState extends State<GGGCategory> {
             width: 80,
             height: 100,
             color: Colors.blue,
-            child: Text("分类$index", style: TextStyle(color: Colors.white),),
             margin: EdgeInsetsDirectional.symmetric(horizontal: 10),
+            child: Text("分类$index", style: TextStyle(color: Colors.white),),
           );
         }
       )

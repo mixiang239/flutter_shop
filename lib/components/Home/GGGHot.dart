@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class GGGHot extends StatefulWidget {
-  GGGHot({Key? key}) : super(key: key);
+  const GGGHot({super.key});
 
   @override
   _GGGHotState createState() => _GGGHotState();

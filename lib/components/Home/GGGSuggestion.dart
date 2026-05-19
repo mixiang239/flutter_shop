@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class GGGSuggestion extends StatefulWidget {
-  GGGSuggestion({Key? key}) : super(key: key);
+  const GGGSuggestion({super.key});
 
   @override
   _GGGSuggestionState createState() => _GGGSuggestionState();

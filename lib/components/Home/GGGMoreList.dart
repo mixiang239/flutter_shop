@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class GGGMoreList extends StatefulWidget {
-  GGGMoreList({Key? key}) : super(key: key);
+  const GGGMoreList({super.key});
 
   @override
   _GGGMoreListState createState() => _GGGMoreListState();
@@ -19,9 +19,9 @@ class _GGGMoreListState extends State<GGGMoreList> {
       ), 
       itemBuilder: (context, index) {
         return Container(
-          child: Text("商品", style: TextStyle(color: Colors.white),),
           color: Colors.blue,
           alignment: Alignment.center,
+          child: Text("商品", style: TextStyle(color: Colors.white),),
         ); 
       }
     );
